@@ -1,0 +1,27 @@
+{
+  "name": "pokedex-javascript-dio",
+  "version": "1.0.0",
+  "description": "<p align=\"center\">  <img width=600px height=200px src=\"https://raw.githubusercontent.com/sleduardo20/pokedex/0671af442dff1d8f7141e49eb83b438885bbc9e9/public/img/logo.svg\" alt=\"Project logo\"> </p>",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "mocha tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/galafis/Pokedex-JavaScript-Dio-Audited.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/galafis/Pokedex-JavaScript-Dio-Audited/issues"
+  },
+  "homepage": "https://github.com/galafis/Pokedex-JavaScript-Dio-Audited#readme",
+  "devDependencies": {
+    "mocha": "^11.7.4",
+    "sinon": "^21.0.0"
+  }
+}
