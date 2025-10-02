@@ -1,0 +1,9 @@
+graph TD
+    A[Usuário] -->|Acessa| B(Navegador)
+    B -->|Requisição HTML/CSS/JS| C[Servidor GitHub Pages]
+    C -->|Entrega Arquivos Estáticos| B
+    B -->|Carrega Aplicação| D[Aplicação JavaScript]
+    D -->|Requisição de Dados Pokémon| E(PokéAPI REST)
+    E -->|Retorna Dados JSON| D
+    D -->|Renderiza Pokémons| B
+    B -->|Interage com UI| A
