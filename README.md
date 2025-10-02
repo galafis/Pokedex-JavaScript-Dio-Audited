@@ -1,7 +1,7 @@
 # Construindo uma Pokédex com JavaScript
 
 <p align="center">
- <img width=600px height=200px src="https://raw.githubusercontent.com/sleduardo20/pokedex/0671af442dff1d8f7141e49eb83b438885bbc9e9/public/img/logo.svg" alt="Project logo">
+ <img width=800px height=300px src="assets/pokedex_hero_image.png" alt="Pokedex Hero Image">
 </p>
 
 <p align="center">
@@ -21,7 +21,6 @@
 - [Funcionalidades](#funcionalidades)
 - [Demonstração](#demonstração)
 - [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Arquitetura](#arquitetura)
 - [Instalação e Execução](#instalação-e-execução)
 - [Uso](#uso)
 - [Licença](#licença)
@@ -53,11 +52,6 @@ As seguintes tecnologias foram empregadas no desenvolvimento deste projeto:
 - **CSS3**: Estilização e design responsivo da interface.
 - **Git/GitHub**: Controle de versão e hospedagem do código-fonte.
 - **PokéAPI**: API REST para obtenção de dados de pokémons.
-
-### Arquitetura
-
-![Diagrama de Arquitetura](assets/architecture.png)
-
 
 ### Instalação e Execução
 
@@ -110,7 +104,6 @@ Desenvolvido com dedicação por **Gabriel Demetrios Lafis**.
 - [Features](#features)
 - [Demo](#demo)
 - [Technologies Used](#technologies-used)
-- [Architecture](#architecture)
 - [Installation and Execution](#installation-and-execution)
 - [Usage](#usage)
 - [License](#license)
@@ -139,14 +132,9 @@ Check out the application in action via GitHub Pages:
 
 - **JavaScript**: Main language for business logic and DOM manipulation.
 - **HTML5**: Semantic structure of the web page.
-- **CSS3**: Styling and responsive design of the interface.
+- **CSS3**: Estilização e design responsivo da interface.
 - **Git/GitHub**: Version control and hosting of the source code.
 - **PokéAPI**: REST API for obtaining Pokémon data.
-
-### Architecture
-
-![Architecture Diagram](assets/architecture.png)
-
 
 ### Installation and Execution
 
@@ -169,7 +157,7 @@ To set up and run the project locally, follow the steps below:
     ```bash
     # If http-server is not globally installed
     npm install -g http-server
-    # To start the server
+    # For to start the server
     http-server
     ```
 
@@ -188,4 +176,5 @@ This project is licensed under the MIT License. See the `LICENSE` file for more 
 ### Author
 
 Developed with dedication by **Gabriel Demetrios Lafis**.
+
 
